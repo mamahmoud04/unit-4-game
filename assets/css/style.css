@@ -5,9 +5,21 @@
 }
 .crystal {
   border: 1px solid black;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
+  background-color: white;
 }
-img {
-  width: 50px;
+
+body {
+  background-image: url(../images/background.jpg);
+}
+#previous,
+#lost,
+#win {
+  color: black;
+  font-size: 45px;
+}
+#outcome {
+  color: white;
+  font-size: 45px;
 }
